@@ -8,9 +8,10 @@
     <link rel="stylesheet" 
     href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
 
-        .success, .error{
+        .success, .error, .remove{
             color: white;
             padding: 20px;
             margin: 5px 0 15px 0;
@@ -24,11 +25,15 @@
             background-color: red;
         }
 
-        /* .alert{
+        .remove{
+            background-color: rgb(214, 214, 91);
+        }
+
+         /* .alert{
             padding: 20px;
-            /* background-color: #f44336; */
+            background-color: #f44336; 
             color: white;
-        } */
+        }  */
 
     </style>
 </head>
@@ -63,6 +68,7 @@
                     <th>Author</th>
                     <th>ISBN</th>
                     <th>Year of Publication</th>
+                    <th></th>
                 </tr>
             </thead>
             <tbody id="book-list"></tbody>
